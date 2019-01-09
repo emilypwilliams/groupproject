@@ -1,6 +1,8 @@
-import fibonacci-sequence
+import Fibonacci_Sequence as fibonacci
 
 
-assert fibonacci-sequence(5) = [1,1,2,3,5]
-assert fibonacci-sequence(20)[19] = fibonacci(20)[18]+fibonacci(20)[17]
+assert len(fibonacci.fibonacci(20)) == 19
+assert fibonacci.fibonacci(5) == [1,1,2,3]
+a = fibonacci.fibonacci(20)
+assert a[18] == a[17] + a[16]
 
