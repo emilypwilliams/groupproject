@@ -11,5 +11,3 @@ def fibonacci(n):
         fib_sequence.append(b)
         a = temp  # New value of a (old value of b)
     return fib_sequence
-
-print(fibonacci(7))
