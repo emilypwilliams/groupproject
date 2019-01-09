@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import fibseq
 
-N=10
+N = 10
 
 seq = fibseq.fibonacci(N)
 

@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import fibseq
 
-N=10
-
+N = 10
 seq = fibseq.fibonacci(N)
 
 fibonaccimean = np.mean(seq)
